@@ -65,6 +65,40 @@ After comparing all models, KNN with k = 3 achieved the strongest performance ac
 # New Data Prediction
 To demonstrate practical use, a new customer record was manually created and fed into the final KNN model to predict whether this customer would accept a personal loan.
 This step shows how the model can be applied in a real‑world scenario.
+# Libraries Used
+### 🔹 Data Handling & Manipulation
+- pandas  
+- numpy  
+
+### 🔹 Visualization
+- seaborn  
+- matplotlib  
+- plotly.express  
+- plotly.io  
+
+### 🔹 Preprocessing & Model Building
+- sklearn.preprocessing (MinMaxScaler)  
+- sklearn.model_selection (train_test_split, StratifiedKFold)  
+- sklearn.linear_model (LogisticRegression)  
+- sklearn.neighbors (KNeighborsClassifier)  
+- sklearn.naive_bayes (GaussianNB, MultinomialNB, BernoulliNB)
+
+### 🔹 Evaluation Metrics & Tools
+- sklearn.metrics  
+  - accuracy_score  
+  - precision_score  
+  - recall_score  
+  - f1_score  
+  - confusion_matrix  
+  - ConfusionMatrixDisplay  
+  - roc_curve  
+  - RocCurveDisplay  
+  - roc_auc_score  
+  - log_loss  
+  - auc  
+
+### 🔹 Utilities
+- warnings  
 # Repository Structure
 ├── Personal Loan Modelling.ipynb
 
