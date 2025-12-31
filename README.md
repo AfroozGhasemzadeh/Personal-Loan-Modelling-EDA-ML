@@ -67,14 +67,23 @@ To demonstrate practical use, a new customer record was manually created and fed
 This step shows how the model can be applied in a real‑world scenario.
 # Repository Structure
 ├── Personal Loan Modelling.ipynb
+
 ├── Personal Loan Modelling Images/
+
 │   ├── confusion_matrix_*.png
+
 │   ├── roc_curve_*.png
+
 │   ├── knn_accuracy_vs_k.png
+
 │   ├── knn_f1_score_vs_k.png
+
 │   ├── knn_auc_vs_k.png
+
 │   ├── cross_validation_plots.png
+
 │   └── other visualizations...
+
 ├── README.md
 
 
